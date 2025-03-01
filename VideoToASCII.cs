@@ -78,7 +78,7 @@ class VideoToASCII
         {
             if (!capture.IsOpened())
             {
-                Console.WriteLine("Не удалось открыть видеофайл.");
+                Console.WriteLine("Failed to open video file");
                 return;
             }
 
